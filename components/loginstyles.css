@@ -1,78 +1,81 @@
 body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #65558F; 
-  }
-  
-  .login-container {
-    width: 320px;
-    padding: 25px;
-    background-color: #ffffff;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
-    border-radius: 15px; /* ขอบมน */
-    text-align: center;
-  }
-  
-  .login-container h2 {
-    font-size: 24px;
-    color: #AB8E7F;
-  }
-  
-  .form-group {
-    margin-bottom: 15px;
-  }
-  
-  .form-group label {
-    display: block;
-    font-weight: bold;
-    font-size: 14px;
-    color: #AB8E7F;
-  }
-  
-  .form-group input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 8px; /* ขอบมน */
-    font-size: 14px;
-  }
-  
-  .login-button {
-    width: 100%;
-    padding: 10px;
-    background-color: #AB8E7F; 
-    color: white;
-    border: none;
-    border-radius: 8px; /* ขอบมน */
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .login-button:hover {
-    background-color: #65558F; 
-  }
-  
-  .error-message {
-    color: red;
-    margin-top: 10px;
-  }
-  
-  .forgot-password {
-    margin-top: 10px;
-  }
-  
-  .forgot-password a {
-    color: #AB8E7F; 
-    text-decoration: none;
-    font-size: 14px;
-  }
-  
-  .forgot-password a:hover {
-    text-decoration: underline;
-  }
+  font-family: Arial, sans-serif;
+  background-color: #65558F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login-container {
+  background-color: #D9D9D9;
+  border-radius: 20px; /* เพิ่มขนาดกรอบมน */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 350px; /* ขยายขนาดกรอบให้ใหญ่ขึ้น */
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 25px;
+  font-size: 26px; /* ขยายขนาดตัวอักษร */
+  color: #333;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group label {
+  font-size: 15px; /* ขยายขนาดข้อความ label */
+  color: #555;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px; /* เพิ่มความสูงของช่องกรอก */
+  border-radius: 12px; /* กรอบมนของช่องกรอก */
+  border: 1px solid #C6BCB8;
+  font-size: 18px; /* ขยายขนาดตัวอักษรในช่องกรอก */
+  box-sizing: border-box; /* ป้องกันการล้นของกรอบ */
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #AB8E7F;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 14px; /* เพิ่มขนาดปุ่มให้ใหญ่ขึ้น */
+  background-color: #AB8E7F;
+  color: white;
+  border: none;
+  border-radius: 12px; /* กรอบมนของปุ่ม */
+  font-size: 18px; /* ขยายขนาดตัวอักษรในปุ่ม */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+  background-color: #C6BCB8;
+}
+
+.forgot-password {
+  display: block;
+  margin-top: 15px;
+  font-size: 16px; /* ขยายขนาดข้อความ */
+  color: #333;
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+
   

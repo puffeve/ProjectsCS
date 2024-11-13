@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ClassMood Insight</title>
+  <link rel="stylesheet" href="searchacc.css">
+</head>
+<body>
+  <div class="sidebar">
+    <div class="website-name">ClassMood Insight</div>
+    <div class="admin-info">Admin: [ชื่อแอดมิน]</div>
+    <div class="menu">
+      <button onclick="window.location.href='manage_courses.html'">จัดการข้อมูลรายวิชา</button>
+      <button onclick="window.location.href='manage_faces.html'">จัดการข้อมูลใบหน้า</button>
+    </div>
+    <div class="logout">
+      <button onclick="logout()">ออกจากระบบ</button>
+    </div>
+  </div>
+  
+  <div class="main-content">
+    <button class="back-btn" onclick="window.history.back()">ย้อนกลับ</button>
+    <div class="search-container">
+      <input type="text" id="search" placeholder="ค้นหาผู้ใช้...">
+      <button onclick="searchUser()">ค้นหา</button>
+    </div>
+
+    <div class="user-list">
+      <ul id="user-list">
+        <!-- รายชื่อผู้ใช้ที่ค้นหาได้จะแสดงที่นี่ -->
+      </ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

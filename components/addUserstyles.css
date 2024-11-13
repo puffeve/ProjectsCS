@@ -56,7 +56,7 @@ button {
 }
 
 button:hover {
-    background-color: #65558F;
+    background-color: #C6BCB8;
 }
 
 .role-group {
@@ -82,7 +82,7 @@ button:hover {
 }
 
 .role-btn:hover {
-    background-color: #ddd;
+    background-color: #C6BCB8;
 }
 
 .role-btn:active {

@@ -1,86 +1,94 @@
-/* ตั้งค่า Style ทั่วไป */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+/* style.css */
+
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
-/* ส่วนของ Header */
-header {
-    background-color: #65558F;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-}
-
-.navbar {
+body {
     display: flex;
-    justify-content: space-between;
+    background-color: #65558F;
+    min-height: 100vh;
+}
+
+/* Sidebar styling */
+.sidebar {
+    width: 250px;
+    background-color: #D9D9D9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    padding: 0 20px;
-}
-
-.navbar h1 {
-    margin: 0;
-}
-
-.logout {
-    background-color: #AB8E7F;
-    color: white;
-    padding: 10px 15px;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.logout:hover {
-    background-color: #C70039;
-}
-
-/* ส่วนของ Menu */
-main {
     padding: 20px;
+}
+
+.profile {
     text-align: center;
+}
+
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.welcome-message {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* Centered dashboard with evenly sized menu items */
+.admin-dashboard {
+    flex-grow: 1;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: auto; /* Center the dashboard */
+    overflow: hidden;
+    text-align: center;
+}
+
+header {
+    background-color: #D9D9D9;
+    color: #333;
+    padding: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .menu {
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-h2 {
-    margin-bottom: 20px;
-}
-
-.menu-options {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 20px;
 }
 
 .menu-item {
-    background-color: #AB8E7F;
-    color: white;
-    padding: 10px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin: 10px 0;
-    text-align: center;
-    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* Set menu items to full width of dashboard */
+    max-width: 500px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .menu-item:hover {
-    background-color: #65558F;
+    background-color: #e2e6ea;
 }
 
-/* ส่วนของ Footer */
-footer {
-    text-align: center;
-    margin-top: 20px;
-    padding: 10px 0;
-    background-color: #f1f1f1;
-    font-size: 14px;
+h2 {
+    font-size: 1.2rem;
+    color: #333;
 }
+
+
