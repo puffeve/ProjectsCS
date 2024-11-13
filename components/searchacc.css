@@ -1,121 +1,146 @@
 /* Styling สำหรับ sidebar */
 .sidebar {
-    width: 250px;
-    height: 100%;
-    background-color: #2c3e50;
-    color: white;
-    padding: 20px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  .website-name {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  
-  .admin-info {
-    margin-bottom: 30px;
-  }
-  
-  .menu button {
-    background-color: #34495e;
-    color: white;
-    border: none;
-    padding: 10px;
-    width: 100%;
-    margin: 5px 0;
-    cursor: pointer;
-  }
-  
-  .menu button:hover {
-    background-color: #1abc9c;
-  }
-  
-  .logout {
-    margin-top: auto;
-    margin-bottom: 30px; /* เพิ่มระยะห่างจากขอบล่าง */
-  }
-  
-  .logout button {
-    background-color: #e74c3c;
-    color: white;
-    border: none;
-    padding: 10px;
-    width: 100%;
-    cursor: pointer;
-    margin-top: 10px; /* เพิ่มระยะห่างขึ้นจากด้านล่าง */
-    border-radius: 5px;
-  }
-  
-  .logout button:hover {
-    background-color: #c0392b;
-  }
-  
-  /* Styling สำหรับ content */
-  .main-content {
-    margin-left: 270px;
-    padding: 20px;
-  }
-  
-  .back-btn {
-    background-color: #e74c3c;
-    color: white;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-    margin-bottom: 20px;
-  }
-  
-  .back-btn:hover {
-    background-color: #c0392b;
-  }
-  
-  .search-container {
-    margin-bottom: 20px;
-  }
-  
-  .search-container input {
-    padding: 10px;
-    width: 80%;
-    margin-right: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .search-container button {
-    padding: 10px;
-    background-color: #3498db;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .search-container button:hover {
-    background-color: #2980b9;
-  }
-  
-  .user-list ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .user-list li {
-    padding: 10px;
-    background-color: #ecf0f1;
-    margin: 5px 0;
-    border-radius: 5px;
-  }
-  
-  .user-list li:hover {
-    background-color: #bdc3c7;
-  }
+  width: 250px;
+  height: 100%;
+  background-color: #D9D9D9;
+  color: #333;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.website-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.admin-info {
+  margin-bottom: 30px;
+}
+
+.menu button {
+  background-color: #BFB8C6;
+  color: #333;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.menu button:hover {
+  background-color: #FAFAFA;
+}
+
+.logout {
+  margin-top: auto;
+  margin-bottom: 30px;
+}
+
+.logout button {
+  background-color: #AB8E7F;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.logout button:hover {
+  background-color: #C6BCB8;
+}
+
+/* Styling สำหรับ content */
+.main-content {
+  margin-left: 270px;
+  padding: 20px;
+}
+
+.back-btn {
+  background-color: #AB8E7F;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.back-btn:hover {
+  background-color: #C6BCB8;
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+.search-container input {
+  padding: 10px;
+  width: 80%;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-container button {
+  padding: 10px;
+  background-color: #AB8E7F;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background-color: #C6BCB8;
+}
+
+.user-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-list li {
+  padding: 10px;
+  background-color: #ecf0f1;
+  margin: 5px 0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-list li:hover {
+  background-color: #bdc3c7;
+}
+
+.user-list button {
+  background-color: #3498db;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.user-list button:hover {
+  background-color: #2980b9;
+}
+
+.user-list .delete-btn {
+  background-color: #e74c3c;
+}
+
+.user-list .delete-btn:hover {
+  background-color: #c0392b;
+}
+
   
   
   
